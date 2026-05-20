@@ -3,8 +3,7 @@
   "package": "com.wickedsik.personalworlds.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ChatMixin",
-    "ServerPlayNetworkHandlerMixin"
+    "ChatMixin"
   ],
   "client": [],
   "injectors": {
