@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Game
+run/
+*.log
+out.txt
+
+# Backups
+*.zip
+backup_*
+
+# Build outputs
+*.jar
+*.war
+*.ear
