@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "personalworlds",
+  "version": "0.7.0",
+  "name": "Pocket Islands",
+  "description": "Give each player their own pocket dimension island that survives world resets",
+  "authors": [
+    "Jurriën"
+  ],
+  "license": "MIT",
+  "icon": "assets/personalworlds/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wickedsik.personalworlds.PersonalWorldsMod"
+    ],
+    "client": [
+      "com.wickedsik.personalworlds.client.ClientEventHandler"
+    ]
+  },
+  "mixins": [
+    "pocketislands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "fabric-permissions-api-v0": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/fantasy-0.4.11+1.20-rc1.jar"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/wickedsik/personalworlds/mixin/ChatMixin": {
+      "onChatMessage(Lnet/minecraft/network/packet/c2s/play/ChatMessageC2SPacket;)V": "Lnet/minecraft/class_3244;onChatMessage(Lnet/minecraft/class_2797;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/wickedsik/personalworlds/mixin/ChatMixin": {
+        "onChatMessage(Lnet/minecraft/network/packet/c2s/play/ChatMessageC2SPacket;)V": "Lnet/minecraft/class_3244;onChatMessage(Lnet/minecraft/class_2797;)V"
+      }
+    }
+  }
+}

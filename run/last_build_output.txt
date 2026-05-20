@@ -1,0 +1,997 @@
+﻿
+> Configure project :
+Fabric Loom: 1.7.4
+
+> Task :clean
+
+> Task :compileJava FAILED
+./gradlew.bat : C:\popop\com\wickedsik\personalworlds\mixin\ChatMixin.java:21: 
+error: Mixin has no targets
+строка:1 знак:1
++ ./gradlew.bat clean compileJava --stacktrace 2>&1 | Out-File -FilePat ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\popop\com\wi... has no targets 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+@Mixin(class_3222.class_7648.class) // ServerGamePacketListenerImpl
+^
+C:\popop\com\wickedsik\personalworlds\mixin\ServerPlayNetworkHandlerMixin.java:
+21: error: Mixin has no targets
+@Mixin(class_7470.class)
+^
+C:\popop\com\wickedsik\personalworlds\chat\ChatCommandHandler.java:9: error: ca
+nnot find symbol
+import net.minecraft.class_2540;
+                    ^
+  symbol:   class class_2540
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\chat\ChatCommandHandler.java:10: error: c
+annot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\chat\ChatCommandHandler.java:11: error: c
+annot find symbol
+import net.minecraft.class_3222;
+                    ^
+  symbol:   class class_3222
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\chat\ChatCommandHandler.java:57: error: c
+annot find symbol
+    private static void handleChatMessage(class_3222 player, String message) {
+                                          ^
+  symbol:   class class_3222
+  location: class ChatCommandHandler
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:11: error:
+ cannot find symbol
+import net.minecraft.class_2540;
+                    ^
+  symbol:   class class_2540
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:12: error:
+ cannot find symbol
+import net.minecraft.class_304;
+                    ^
+  symbol:   class class_304
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:13: error:
+ cannot find symbol
+import net.minecraft.class_310;
+                    ^
+  symbol:   class class_310
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:14: error:
+ cannot find symbol
+import net.minecraft.class_3675;
+                    ^
+  symbol:   class class_3675
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:25: error:
+ cannot find symbol
+    private static class_304 guiKeyBinding;
+                   ^
+  symbol:   class class_304
+  location: class ClientEventHandler
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:55: error:
+ cannot find symbol
+    private void onClientTick(class_310 client) {
+                              ^
+  symbol:   class class_310
+  location: class ClientEventHandler
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:74: error:
+ cannot find symbol
+    private void onGuiKeyPressed(class_310 client) {
+                                 ^
+  symbol:   class class_310
+  location: class ClientEventHandler
+C:\popop\com\wickedsik\personalworlds\client\ClientEventHandler.java:88: error:
+ cannot find symbol
+    public static class_304 getGuiKeyBinding() {
+                  ^
+  symbol:   class class_304
+  location: class ClientEventHandler
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+10: error: cannot find symbol
+import net.minecraft.class_1043;
+                    ^
+  symbol:   class class_1043
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+11: error: cannot find symbol
+import net.minecraft.class_1046;
+                    ^
+  symbol:   class class_1046
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+12: error: cannot find symbol
+import net.minecraft.class_124;
+                    ^
+  symbol:   class class_124
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+13: error: cannot find symbol
+import net.minecraft.class_1675;
+                    ^
+  symbol:   class class_1675
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+14: error: cannot find symbol
+import net.minecraft.class_2371;
+                    ^
+  symbol:   class class_2371
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+15: error: cannot find symbol
+import net.minecraft.class_2540;
+                    ^
+  symbol:   class class_2540
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+16: error: cannot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+17: error: cannot find symbol
+import net.minecraft.class_2960;
+                    ^
+  symbol:   class class_2960
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+18: error: cannot find symbol
+import net.minecraft.class_310;
+                    ^
+  symbol:   class class_310
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+19: error: cannot find symbol
+import net.minecraft.class_3222;
+                    ^
+  symbol:   class class_3222
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+20: error: cannot find symbol
+import net.minecraft.class_332;
+                    ^
+  symbol:   class class_332
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+21: error: cannot find symbol
+import net.minecraft.class_4185;
+                    ^
+  symbol:   class class_4185
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+22: error: cannot find symbol
+import net.minecraft.class_437;
+                    ^
+  symbol:   class class_437
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+37: error: cannot find symbol
+public class PocketDimensionScreen extends class_437 {
+                                           ^
+  symbol: class class_437
+C:\popop\com\wickedsik\personalworlds\portal\PortalColor.java:3: error: cannot 
+find symbol
+import net.minecraft.class_3542;
+                    ^
+  symbol:   class class_3542
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\portal\PortalColor.java:5: error: cannot 
+find symbol
+public enum PortalColor implements class_3542 {
+                                   ^
+  symbol: class class_3542
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+88: error: cannot find symbol
+    private final class_310 client;
+                  ^
+  symbol:   class class_310
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+95: error: cannot find symbol
+    private final Map<String, class_4185> inviteButtons = new HashMap<>();
+                              ^
+  symbol:   class class_4185
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+98: error: cannot find symbol
+    private final Map<String, class_2960> playerHeadCache = new HashMap<>();
+                              ^
+  symbol:   class class_2960
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+144: error: cannot find symbol
+    public void method_25394(class_1675 guiGraphics, int mouseX, int mouseY, fl
+oat delta) { // render
+                             ^
+  symbol:   class class_1675
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+174: error: cannot find symbol
+    private void renderColorPalette(class_1675 guiGraphics, int startX, int sta
+rtY, int mouseX, int mouseY) {
+                                    ^
+  symbol:   class class_1675
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+221: error: cannot find symbol
+    private void renderPlayerList(class_1675 guiGraphics, int startX, int start
+Y, int mouseX, int mouseY) {
+                                  ^
+  symbol:   class class_1675
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+286: error: cannot find symbol
+    private void renderPlayerHead(class_1675 guiGraphics, int x, int y, String 
+playerName) {
+                                  ^
+  symbol:   class class_1675
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\PocketDimensionScreen.java:
+326: error: cannot find symbol
+    private void renderScrollbar(class_1675 guiGraphics, int x, int y) {
+                                 ^
+  symbol:   class class_1675
+  location: class PocketDimensionScreen
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:7: 
+error: cannot find symbol
+import net.minecraft.class_124;
+                    ^
+  symbol:   class class_124
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:8: 
+error: cannot find symbol
+import net.minecraft.class_2540;
+                    ^
+  symbol:   class class_2540
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:9: 
+error: cannot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:10:
+ error: cannot find symbol
+import net.minecraft.class_310;
+                    ^
+  symbol:   class class_310
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:11:
+ error: cannot find symbol
+import net.minecraft.class_312;
+                    ^
+  symbol:   class class_312
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:12:
+ error: cannot find symbol
+import net.minecraft.class_4185;
+                    ^
+  symbol:   class class_4185
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:13:
+ error: cannot find symbol
+import net.minecraft.class_437;
+                    ^
+  symbol:   class class_437
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:21:
+ error: cannot find symbol
+public class VisitRequestScreen extends class_437 {
+                                        ^
+  symbol: class class_437
+C:\popop\com\wickedsik\personalworlds\client\screen\VisitRequestScreen.java:59:
+ error: cannot find symbol
+    public void method_25394(class_1675 guiGraphics, int mouseX, int mouseY, fl
+oat delta) { // render
+                             ^
+  symbol:   class class_1675
+  location: class VisitRequestScreen
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:3: error: cann
+ot find symbol
+import net.minecraft.class_2168;
+                    ^
+  symbol:   class class_2168
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:4: error: cann
+ot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:6: error: cann
+ot find symbol
+public record CommandResult(boolean success, class_2561 message, boolean broadc
+ast) {
+                                             ^
+  symbol:   class class_2561
+  location: class CommandResult
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:10: error: can
+not find symbol
+   public static CommandResult success(class_2561 message) {
+                                       ^
+  symbol:   class class_2561
+  location: class CommandResult
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:14: error: can
+not find symbol
+   public static CommandResult successBroadcast(class_2561 message) {
+                                                ^
+  symbol:   class class_2561
+  location: class CommandResult
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:18: error: can
+not find symbol
+   public static CommandResult error(class_2561 message) {
+                                     ^
+  symbol:   class class_2561
+  location: class CommandResult
+C:\popop\com\wickedsik\personalworlds\command\CommandResult.java:30: error: can
+not find symbol
+   public int applyTo(class_2168 source) {
+                      ^
+  symbol:   class class_2168
+  location: class CommandResult
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:25: error: cannot find symbol
+import net.minecraft.class_124;
+                    ^
+  symbol:   class class_124
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:26: error: cannot find symbol
+import net.minecraft.class_1297;
+                    ^
+  symbol:   class class_1297
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:27: error: cannot find symbol
+import net.minecraft.class_2168;
+                    ^
+  symbol:   class class_2168
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:28: error: cannot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:29: error: cannot find symbol
+import net.minecraft.class_3218;
+                    ^
+  symbol:   class class_3218
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:30: error: cannot find symbol
+import net.minecraft.class_3222;
+                    ^
+  symbol:   class class_3222
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:31: error: cannot find symbol
+import net.minecraft.class_5250;
+                    ^
+  symbol:   class class_5250
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\service\PlayerLookupService.java:
+9: error: cannot find symbol
+import net.minecraft.class_3222;
+                    ^
+  symbol:   class class_3222
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:42: error: cannot find symbol
+   public void list(class_2168 source) {
+                    ^
+  symbol:   class class_2168
+  location: class AdminCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:74: error: cannot find symbol
+   public CommandResult info(class_2168 source, String playerName) {
+                             ^
+  symbol:   class class_2168
+  location: class AdminCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:104: error: cannot find symbol
+   public CommandResult deletePrompt(class_2168 source, String playerName) {
+                                     ^
+  symbol:   class class_2168
+  location: class AdminCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:130: error: cannot find symbol
+   public CommandResult deleteConfirm(class_2168 source, String playerName) {
+                                      ^
+  symbol:   class class_2168
+  location: class AdminCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:172: error: cannot find symbol
+   public CommandResult teleport(class_3222 admin, String playerName) {
+                                 ^
+  symbol:   class class_3222
+  location: class AdminCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\AdminCommandExecutor.jav
+a:189: error: cannot find symbol
+   public CommandResult reload(class_2168 source) {
+                               ^
+  symbol:   class class_2168
+  location: class AdminCommandExecutor
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:6: err
+or: cannot find symbol
+import net.minecraft.class_2338;
+                    ^
+  symbol:   class class_2338
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:7: err
+or: cannot find symbol
+import net.minecraft.class_2487;
+                    ^
+  symbol:   class class_2487
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:8: err
+or: cannot find symbol
+import net.minecraft.class_2960;
+                    ^
+  symbol:   class class_2960
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:10: er
+ror: cannot find symbol
+public record PlayerDimensionData(UUID ownerUuid, String ownerName, class_2960 
+dimensionId, long createdAt, class_2338 spawnPoint, WorldGenType generatorType,
+ int portalTypeIndex) {
+                                                                    ^
+  symbol:   class class_2960
+  location: class PlayerDimensionData
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:10: er
+ror: cannot find symbol
+public record PlayerDimensionData(UUID ownerUuid, String ownerName, class_2960 
+dimensionId, long createdAt, class_2338 spawnPoint, WorldGenType generatorType,
+ int portalTypeIndex) {
+                                                                               
+                             ^
+  symbol:   class class_2338
+  location: class PlayerDimensionData
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:11: er
+ror: cannot find symbol
+   public class_2487 toNbt() {
+          ^
+  symbol:   class class_2487
+  location: class PlayerDimensionData
+C:\popop\com\wickedsik\personalworlds\dimension\PlayerDimensionData.java:25: er
+ror: cannot find symbol
+   public static PlayerDimensionData fromNbt(class_2487 nbt) {
+                                             ^
+  symbol:   class class_2487
+  location: class PlayerDimensionData
+C:\popop\com\wickedsik\personalworlds\command\executor\DebugCommandExecutor.jav
+a:5: error: cannot find symbol
+import net.minecraft.class_124;
+                    ^
+  symbol:   class class_124
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\DebugCommandExecutor.jav
+a:6: error: cannot find symbol
+import net.minecraft.class_2168;
+                    ^
+  symbol:   class class_2168
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\DebugCommandExecutor.jav
+a:7: error: cannot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\DebugCommandExecutor.jav
+a:21: error: cannot find symbol
+   public void showStatus(class_2168 source, MinecraftServer server) {
+                          ^
+  symbol:   class class_2168
+  location: class DebugCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\DevCommandExecutor.java:
+14: error: cannot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\DevCommandExecutor.java:
+15: error: cannot find symbol
+import net.minecraft.class_3218;
+                    ^
+  symbol:   class class_3218
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\DevCommandExecutor.java:
+16: error: cannot find symbol
+import net.minecraft.class_3222;
+                    ^
+  symbol:   class class_3222
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\DevCommandExecutor.java:
+20: error: cannot find symbol
+   public CommandResult createDimension(class_3222 player, String typeStr) {
+                                        ^
+  symbol:   class class_3222
+  location: class DevCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\DevCommandExecutor.java:
+35: error: cannot find symbol
+   public CommandResult enterDimension(class_3222 player) {
+                                       ^
+  symbol:   class class_3222
+  location: class DevCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\DevCommandExecutor.java:
+59: error: cannot find symbol
+   public CommandResult leaveDimension(class_3222 player) {
+                                       ^
+  symbol:   class class_3222
+  location: class DevCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:17: error: cannot find symbol
+import net.minecraft.class_124;
+                    ^
+  symbol:   class class_124
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:18: error: cannot find symbol
+import net.minecraft.class_1792;
+                    ^
+  symbol:   class class_1792
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:19: error: cannot find symbol
+import net.minecraft.class_2168;
+                    ^
+  symbol:   class class_2168
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:20: error: cannot find symbol
+import net.minecraft.class_2246;
+                    ^
+  symbol:   class class_2246
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:21: error: cannot find symbol
+import net.minecraft.class_2248;
+                    ^
+  symbol:   class class_2248
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:22: error: cannot find symbol
+import net.minecraft.class_2561;
+                    ^
+  symbol:   class class_2561
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:23: error: cannot find symbol
+import net.minecraft.class_2960;
+                    ^
+  symbol:   class class_2960
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:24: error: cannot find symbol
+import net.minecraft.class_3222;
+                    ^
+  symbol:   class class_3222
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:25: error: cannot find symbol
+import net.minecraft.class_5250;
+                    ^
+  symbol:   class class_5250
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:26: error: cannot find symbol
+import net.minecraft.class_7923;
+                    ^
+  symbol:   class class_7923
+  location: package net.minecraft
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:36: error: cannot find symbol
+   public CommandResult invite(class_3222 owner, class_3222 guest, boolean alwa
+ysWelcome) {
+                               ^
+  symbol:   class class_3222
+  location: class PlayerCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:36: error: cannot find symbol
+   public CommandResult invite(class_3222 owner, class_3222 guest, boolean alwa
+ysWelcome) {
+                                                 ^
+  symbol:   class class_3222
+  location: class PlayerCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:41: error: cannot find symbol
+   public CommandResult uninvite(class_3222 owner, String guestName) {
+                                 ^
+  symbol:   class class_3222
+  location: class PlayerCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:53: error: cannot find symbol
+   public CommandResult toggleWelcome(class_3222 owner, String guestName) {
+                                      ^
+  symbol:   class class_3222
+  location: class PlayerCommandExecutor
+C:\popop\com\wickedsik\personalworlds\command\executor\PlayerCommandExecutor.ja
+va:71: error: cannot find symbol
+   public CommandResult showInvitations(class_3222 player) {
+                                        ^
+  symbol:   class class_3222
+  location: class PlayerCommandExecutor
+100 errors
+only showing the first 100 errors, of 727 total; use -Xmaxerrs if you would lik
+e to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':compil
+eJava'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$e
+xecuteIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeI
+fValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(
+ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.exec
+ute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.ex
+ecute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execu
+te(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(Skip
+OnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(
+CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTa
+sk(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(Eve
+ntFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecut
+or.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOp
+erationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(Defaul
+tPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPla
+nExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExec
+ute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManage
+dExecutor.java:47)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Co
+mpilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompil
+er.java:61)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompil
+er.java:41)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHa
+ndleErrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(Norma
+lizingJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(Norma
+lizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompile
+r.execute(AnnotationProcessorDiscoveringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompile
+r.execute(AnnotationProcessorDiscoveringCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.
+execute(ModuleApplicationNameWritingCompiler.java:46)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.
+execute(ModuleApplicationNameWritingCompiler.java:36)
+	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(Defa
+ultToolchainJavaCompiler.java:57)
+	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(J
+avaCompile.java:202)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompiler.execute(Cleaning
+JavaCompiler.java:53)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactor
+y.lambda$createRebuildAllCompiler$0(IncrementalCompilerFactory.java:52)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute
+(SelectiveCompiler.java:70)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute
+(SelectiveCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringC
+ompiler.execute(IncrementalResultStoringCompiler.java:66)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringC
+ompiler.execute(IncrementalResultStoringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCom
+piler$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCom
+piler$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCom
+piler.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.jav
+a:220)
+	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(Java
+Compile.java:161)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:146)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMeth
+odHandleAccessor.java:103)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute
+(IncrementalTaskAction.java:45)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(Stan
+dardTaskAction.java:51)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(I
+ncrementalTaskAction.java:26)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(Stan
+dardTaskAction.java:29)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.j
+ava:244)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(Defaul
+tBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(Defaul
+tBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuild
+OperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExe
+cution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskEx
+ecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOu
+tputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution
+.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep
+.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java
+:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56
+)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44
+)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecu
+tionStep.java:41)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(Timeo
+utStep.java:74)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55
+)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreC
+reateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreC
+reateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(Remov
+ePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(Remov
+ePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(Br
+oadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(Br
+oadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execut
+e(CaptureOutputsAfterExecutionStep.java:67)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execut
+e(CaptureOutputsAfterExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(Resolve
+InputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(Resolve
+InputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(Buil
+dCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCa
+cheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:6
+2)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.j
+ava:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.j
+ava:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreEx
+ecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreEx
+ecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpT
+oDateStep.java:76)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipU
+pToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateSt
+ep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateSt
+ep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedSt
+ep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedSt
+ep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.exec
+uteDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.exec
+uteDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute
+(AbstractResolveCachingStateStep.java:71)
+2 actionable tasks: 2 executed
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute
+(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChang
+esStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChang
+esStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:
+106)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:
+55)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNo
+nEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(Abstr
+actSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(Abstr
+actSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedSte
+p.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(
+LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(
+LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleSt
+aleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleSt
+aleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execu
+te$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskE
+xecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(Assi
+gnMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(Assi
+gnMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipeli
+neStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipeli
+neStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lam
+bda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.exe
+cute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.exe
+cute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCache
+Step.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCache
+Step.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:
+48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:
+35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(Default
+ExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeI
+fValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(
+ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.exec
+ute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.ex
+ecute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execu
+te(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(Skip
+OnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(
+CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTa
+sk(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(Eve
+ntFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecut
+or.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOp
+erationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(Defaul
+tPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPla
+nExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExec
+ute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManage
+dExecutor.java:47)
+
+
+BUILD FAILED in 5s
