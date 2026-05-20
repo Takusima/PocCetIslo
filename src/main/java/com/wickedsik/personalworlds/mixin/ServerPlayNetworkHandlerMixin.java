@@ -1,17 +1,16 @@
 package com.wickedsik.personalworlds.mixin;
 
-import net.minecraft.network.packet.c2s.play.ChatMessageC2SPacket;
-import net.minecraft.server.network.ServerPlayNetworkHandler;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-@Mixin(ServerPlayNetworkHandler.class)
+/**
+ * ⚠️ DEPRECATED: This mixin has been consolidated into ChatMixin.java
+ * 
+ * All chat message handling logic is now in ChatMixin to avoid
+ * duplicate @Mixin annotations on ServerPlayNetworkHandler.
+ * 
+ * If you need to add new server network handler logic,
+ * extend ChatMixin or create a new mixin with a different target.
+ */
+@Deprecated(since = "0.7.0", forRemoval = true)
 public class ServerPlayNetworkHandlerMixin {
-
-    @Inject(method = "onChatMessage(Lnet/minecraft/network/packet/c2s/play/ChatMessageC2SPacket;)V", at = @At("HEAD"), cancellable = true)
-    private void onChatMessage(ChatMessageC2SPacket packet, CallbackInfo ci) {
-        // Твоя логика здесь
-    }
+    // This class is kept for backward compatibility only
+    // It will be removed in future versions
 }
